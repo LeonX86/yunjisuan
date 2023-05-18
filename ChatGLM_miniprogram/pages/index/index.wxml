@@ -1,0 +1,13 @@
+<view class="container">
+  <scroll-view scroll-y="true" class="content">
+    <view wx:for="{{dialogList}}" wx:key="index">
+      <view class="item {{item.type}}">
+        <text>{{item.content}}</text>
+      </view>
+    </view>
+  </scroll-view>
+  <view class="input-box">
+    <input type="text" class="input" placeholder="请输入消息" bindconfirm="sendMessage"></input>
+    <button class="btn-send" bindtap="sendMessage">发送</button>
+  </view>
+</view>

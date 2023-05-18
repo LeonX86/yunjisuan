@@ -1,0 +1,12 @@
+{
+  "pages": [
+    "pages/index/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "ChatGLM",
+    "navigationBarBackgroundColor": "#F2F2F2",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "backgroundTextStyle": "light"
+  }
+}

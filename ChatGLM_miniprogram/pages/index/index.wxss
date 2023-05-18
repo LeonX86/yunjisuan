@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20rpx;
+}
+
+.content {
+  flex-grow: 1;
+  margin-bottom: 20rpx;
+}
+
+.item {
+  max-width: 60%;
+  min-width: 20%;
+  padding: 10rpx;
+  border-radius: 10rpx;
+  margin: 10rpx 0;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.item.user {
+  background-color: #F2F2F2;
+  align-self: flex-end;
+}
+
+.item.robot {
+  background-color: #C9FED7;
+  align-self: flex-start;
+}
+
+.input-box {
+  display: flex;
+}
+
+.input {
+  flex-grow: 1;
+  height: 80rpx;
+  border: 1px solid #C9C9C9;
+  border-radius: 10rpx;
+  padding: 20rpx;
+  font-size: 28rpx;
+}
+
+.btn-send {
+  width: 150rpx;
+  height: 80rpx;
+  background-color: #00BFFF;
+  color: white;
+  border: none;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+}
